@@ -3,14 +3,12 @@
 	height: 70px;
 	font-size: 25px;
 	margin-right: 70px;
-	margin-top: 45%;
+	margin-top: 50%;
 	background-color: #000;
 	color: #fff;
 	padding: 14%;
 	border: 0;
 	cursor: pointer;
-	right: 0;
-	bottom: 0;
 }
 
 body {
