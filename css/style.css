@@ -8,7 +8,54 @@
 	color: #fff;
 	padding: 14%;
 	border: 0;
+<<<<<<< HEAD
+}
+
+#menu{
+	position: absolute;
+  	top: 0;
+  	right: 0;
+	width: 50%;
+	background-color: #000;
+	height: 100%;
+	margin-right: -50%;
+}
+
+#menu ul{
+	font-size: 2em;
+	list-style-type: none;
+	text-align: center;
+	padding-top: 30%;
+}
+
+#menu li{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: 'Nevis';
+=======
 	cursor: pointer;
+<<<<<<< HEAD
+=======
+	right: 0;
+	bottom: 0;
+>>>>>>> 0b04afddb8d97201c8d898c103d490b0f3051d11
+}
+
+#menu a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.open{
+	margin-right: 0%;
+}
+
+#close{
+	font-size: 3em;
+	float: right;
+	margin-top: 10px;
+	margin-right: 30px;
+>>>>>>> 2d3078a243ccd6bd9cf4c422ad8ab23061952c08
 }
 
 body {
@@ -34,6 +81,7 @@ body {
 #homepagetext h1 {
 	font-size: 75px;
 	font-family: 'Nevis';
+	
 }
 
 #homepagetext p {
