@@ -24,7 +24,6 @@
 	font-size: 2em;
 	list-style-type: none;
 	text-align: center;
-	padding-top: 30%;
 }
 
 #menu li{
@@ -41,8 +40,14 @@
 	color: #fff;
 }
 
-.open{
-	margin-right: 0%;
+#border{
+	padding: 50px 40px 50px 40px;
+	width: auto;
+	border: 2px #fff solid;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 25%;
+
 }
 
 #close{
