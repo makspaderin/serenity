@@ -10,6 +10,31 @@
 	border: 0;
 }
 
+#menu{
+	position: absolute;
+  	top: 0;
+  	right: 0;
+	width: 50%;
+	background-color: #000;
+	color: #fff;
+	height: 100%;
+	margin-right: 0px;
+}
+
+#menu ul{
+	font-size: 2em;
+	list-style-type: none;
+	text-align: center;
+	padding-top: 180px;
+	padding-bottom: 180px;  
+}
+
+#menu li{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: 'Nevis';
+}
+
 body {
 	overflow-x: hidden;
 }
