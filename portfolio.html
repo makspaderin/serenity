@@ -27,17 +27,27 @@
     <![endif]-->
   </head>
   <body>
-      <nav class="navbar navbar-right">
+      <nav class="navbar">
         <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-          <div class="navbar-header">
-              <button id="ham" type="button" class=" btnnavbar-toggle" aria-label="Right Align">
-                <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
-                <span class="sr-only">Toggle navigation</span>
+        <!-- Menu button -->
+              <button id="ham" type="button" class="navbar-toggler navbar-right">
+                <span class="glyphicon glyphicon-menu-hamburger"></span>
               </button>
-          </div>
         </div>
-      </nav>
+      </nav><!-- end of menu button -->
+
+      <!-- Hidden menu -->
+      <div id="menu">
+        <a href="#" id="close">&times;</a>
+          <ul>
+            <div id="border"> 
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="portfolio.html">Portfolio</a></li>
+              <li><a href="contacts.html">Contacts</a></li>
+            </div>  
+          </ul> 
+      </div><!-- end of menu -->
 
       <section class="portfolioitems">
         <div class="container">
@@ -54,23 +64,13 @@
         </div>
       </section>
 
-            <div id="menu">
-        <a href="#" id="close">&times;</a>
-          <ul>
-            <div id="border"> 
-              <li><a href="index.html">Home</a></li>
-              <li><a href="about.html">About</a></li>
-              <li><a href="portfolio.html">Portfolio</a></li>
-              <li><a href="contacts.html">Contacts</a></li>
-            </div>  
-          </ul>
-        
-      </div>
+            
 
       <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
       <!-- Include all compiled plugins (below), or include individual files as needed -->
       <script src="js/bootstrap.min.js"></script>
       <script type="text/javascript" src="js/custom.js"></script>
+      <script type="text/javascript" src="js/Scrollify/jquery.scrollify.min.js"></script>
   </body>
 </html>
