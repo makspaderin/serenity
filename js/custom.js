@@ -46,4 +46,8 @@ $(function() {
       $(".home").append(pagination);
     }
   });
+
+  
+  $(".pagination a").on("click",$.scrollify.move);
+
 });
