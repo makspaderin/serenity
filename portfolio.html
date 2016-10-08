@@ -11,13 +11,6 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 
-    <script>
-        $(function() {
-          $.scrollify({
-            section : ".example-classname",
-          });
-        });
-      </script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -49,20 +42,16 @@
           </ul> 
       </div><!-- end of menu -->
 
-      <section class="portfolioitems">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                  <div class="col-lg-6 sitesnap">
-                    <img src="img/uma.png" alt="UmaGraphics" id="uma">
-                  </div>
-                  <div class="col-lg-6 siteinfo">
-                    <p>Italian 3d-modelling agency</p>
-                  </div>
-                </div>
-            </div>
-        </div>
+      <section class="portfolio-box" data-section-name="first">
+        <ul class="pagination">
+          <li><a class="" href="#first"><span class="hover-text"></span></a></li>
+          <li><a class="active" href="#second"><span class="hover-text"></span></a></li>
+        </ul>
+        
+        <div class="left"></div>
+        <div class="right"></div>
       </section>
+      <section class="portfolio-box" data-section-name="second"></section>
 
             
 
