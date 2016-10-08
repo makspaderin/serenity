@@ -1,13 +1,14 @@
 #ham {
 	width: 70px;
 	height: 70px;
-	font-size: 25px;
 	margin-right: 70px;
-	margin-top: 50%;
+	margin-top: 70px;
+	font-size: 25px;
 	background-color: #000;
 	color: #fff;
-	padding: 14%;
 	border: 0;
+	position: absolute;
+	right: 0;
 }
 
 #menu{
@@ -200,7 +201,6 @@ body {
 	margin-right: 20%;
 	margin-top: 25%;
 }
-
 	}
 
 	.skillbar {
