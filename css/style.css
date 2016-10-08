@@ -96,8 +96,7 @@ body {
 }
 
 #faces {
-	padding-top: 5%;
-	display: block;
+	padding-top: 2%;
 	text-align: center;
 }
 
@@ -191,18 +190,6 @@ body {
   src: url('../fonts/Nexa Light.OTF');
 }
 
-@media(max-width:1300px) {
-
-#border{
-	padding: 50px 40px 50px 40px;
-	width: auto;
-	border: 2px #fff solid;
-	margin-left: 20%;
-	margin-right: 20%;
-	margin-top: 25%;
-}
-	}
-
 	.skillbar {
     position: relative;
     display: block;
@@ -247,4 +234,29 @@ body {
     float: right;
     display: inline;
     line-height: 24px;
+}
+
+@media(max-width:1500px) {
+
+#border{
+	padding: 50px 40px 50px 40px;
+	width: auto;
+	border: 2px #fff solid;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 25%;
+}
+
+#facespic {
+	width: 22%;
+	height: 22%;
+}
+
+#abouttext {
+	font-size: 25px;
+}
+
+.skillbar {
+	margin-bottom: 15px;
+}
 }
