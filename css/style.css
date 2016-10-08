@@ -43,6 +43,10 @@
 	color: #fff;
 }
 
+.menuicon {
+	float: right;
+}
+
 #border{
 	padding: 50px 40px 50px 40px;
 	width: auto;
@@ -98,7 +102,7 @@ body {
 }
 
 #faces {
-	padding-top: 2%;
+	padding-top: 8%;
 	text-align: center;
 }
 
@@ -345,7 +349,7 @@ body {
 }
 
 #faces {
-	padding-top: 0%;
+	padding-top: 4%;
 }
 
 #facespic {
