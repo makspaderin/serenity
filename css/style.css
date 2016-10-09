@@ -115,27 +115,11 @@ body {
 	-webkit-box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.75);
 }
 
-/*.siteinfo {
-	height: 100vh;
-	border-left-style: solid;
-}
-
-.siteinfo p {
-	text-align: center;
-	font-family: "Nexa";
-	font-size: 100px;
-}
-
-#uma {
-	height: 100%;
-	width: 100%;
-}*/
-
 .portfolio-box{
 	height: 100%;
 }
 
-.left{
+.left1{
 	float: left;
 	width: 50%;
 	height: inherit;
@@ -143,6 +127,36 @@ body {
 	background-position: center;
 	background-size: auto 100%;
 
+}
+
+.left2 {
+	float: left;
+	width: 50%;
+	height: inherit;
+	background-image: url('../img/amie.png');
+	background-position: center;
+	background-size: auto 100%;
+}
+
+.siteinfo {
+	height: 100%;
+	border-left-style: solid;
+	padding-top: 35%;
+	/* background-color: #F6FBFC; */
+}
+
+.siteinfo h1 {
+	text-align: center;
+	font-family: "Nevis";
+	font-size: 60px;
+	letter-spacing: 3px;
+}
+
+.siteinfo p {
+	padding-top: 5%;
+	text-align: center;
+	font-family: "Nexa";
+	font-size: 25px;
 }
 
 .right{
