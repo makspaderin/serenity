@@ -160,12 +160,19 @@ body {
 	line-height: 80px;
 }
 
+
 #uma {
 	background-image: url('../img/uma.png');
 }
 
 #amie {
 	background-image: url('../img/amie.png');
+}
+
+.opasity{
+	height: inherit;
+	width: 100%;
+	background-color: rgba(255,255,255,0.35);
 }
 
 .siteinfo {
