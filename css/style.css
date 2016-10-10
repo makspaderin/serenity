@@ -129,8 +129,8 @@ body {
 
 }
 
-.left2 {
-	float: left;
+.right2 {
+	float: right;
 	width: 50%;
 	height: inherit;
 	background-image: url('../img/amie.png');
@@ -140,9 +140,8 @@ body {
 
 .siteinfo {
 	height: 100%;
-	border-left-style: solid;
 	padding-top: 35%;
-	/* background-color: #F6FBFC; */
+	background-color: #FDFDFD;
 }
 
 .siteinfo h1 {
@@ -157,6 +156,14 @@ body {
 	text-align: center;
 	font-family: "Nexa";
 	font-size: 25px;
+}
+
+.left{
+	float: left;
+	width: 50%;
+	height: inherit;
+	background-position: center;
+	background-size: auto 100%;
 }
 
 .right{
@@ -197,13 +204,13 @@ body {
     line-height: 1.42857143;
     color: #000;
     text-decoration: none;
-    background-color: #fff; 
+    background-color: transparent; 
     border: none;
 }
 
 .pagination>li>a:hover {
 	color: #555;
-	background-color: #fff;
+	background-color: transparent;
 
 }
 
