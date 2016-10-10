@@ -44,7 +44,7 @@
 }
 
 #menu li a:hover {
-	color: #FFFFE5;
+	color: #FFEA99;
 }
 
 .menuicon {
@@ -52,7 +52,7 @@
 }
 
 #menu li a.active {
-	color: #FFFFB2;
+	color: #FFE066;
 }
 
 #border{
