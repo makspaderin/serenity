@@ -51,7 +51,7 @@
 	float: right;
 }
 
-.active {
+#menu li a.active {
 	color: #FFFFB2;
 }
 
