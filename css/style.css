@@ -43,8 +43,16 @@
 	color: #fff;
 }
 
+#menu li a:hover {
+	color: #FFFFE5;
+}
+
 .menuicon {
 	float: right;
+}
+
+.active {
+	color: #FFFFB2;
 }
 
 #border{
