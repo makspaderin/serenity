@@ -117,6 +117,7 @@ body {
 
 .portfolio-box{
 	height: 100%;
+	position: relative;
 }
 
 .left{
@@ -138,20 +139,25 @@ body {
 
 .circle {
 	border-radius: 50%;
-	width: 100px;
-	height: 100px;
+	width: 80px;
+	height: 80px;
 	position: absolute;
-	background-color: #000;
+	background-color: #650D1B;
 	top: 0; bottom:0; left: 0; right:0;
     margin: auto;
 	/* width and height can be anything, as long as they're equal */
 }
 
+.circle:hover{
+	background-color: #5C0C19;
+}
+
 .circle p {
 	color: #fff;
+	font-size: 1.5em;
 	text-align: center;
-	vertical-align: middle;
 	font-family: 'Nexa';
+	line-height: 80px;
 }
 
 #uma {
