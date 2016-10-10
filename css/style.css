@@ -119,23 +119,47 @@ body {
 	height: 100%;
 }
 
-.left1{
+.left{
 	float: left;
 	width: 50%;
 	height: inherit;
-	background-image: url('../img/uma.png');
 	background-position: center;
 	background-size: auto 100%;
 
 }
 
-.right2 {
+.right{
 	float: right;
 	width: 50%;
 	height: inherit;
-	background-image: url('../img/amie.png');
 	background-position: center;
 	background-size: auto 100%;
+}
+
+.circle {
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	background-color: #000;
+	top: 0; bottom:0; left: 0; right:0;
+    margin: auto;
+	/* width and height can be anything, as long as they're equal */
+}
+
+.circle p {
+	color: #fff;
+	text-align: center;
+	vertical-align: middle;
+	font-family: 'Nexa';
+}
+
+#uma {
+	background-image: url('../img/uma.png');
+}
+
+#amie {
+	background-image: url('../img/amie.png');
 }
 
 .siteinfo {
@@ -156,22 +180,6 @@ body {
 	text-align: center;
 	font-family: "Nexa";
 	font-size: 25px;
-}
-
-.left{
-	float: left;
-	width: 50%;
-	height: inherit;
-	background-position: center;
-	background-size: auto 100%;
-}
-
-.right{
-	float: left;
-	width: 50%;
-	height: inherit;
-	background-position: center;
-	background-size: auto 100%;
 }
 
 .pagination {
