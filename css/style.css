@@ -218,6 +218,17 @@ body {
 	font-size: 25px;
 }
 
+.sitebtn p {
+	color: black;
+	border: solid;
+	padding: 1%;
+	width: 15%;
+	font-family: "Nevis";
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 5%
+}
+
 /* Scrollify */
 
 .pagination {
