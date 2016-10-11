@@ -1,3 +1,5 @@
+/* Menu */
+
 #ham {
 	width: 70px;
 	height: 70px;
@@ -72,6 +74,8 @@
 	margin-right: 30px;
 }
 
+/* Mainpage */
+
 body {
 	overflow-x: hidden;
 }
@@ -103,6 +107,8 @@ body {
 	font-family: 'Nexa';
 }
 
+/* About Page */
+
 #abouttext {
 	font-size: 35px;
 	font-family: 'Nexa';
@@ -122,6 +128,8 @@ body {
 	-moz-box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.75);
 	-webkit-box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.75);
 }
+
+/* Portfolio Page */
 
 .portfolio-box{
 	height: 100%;
@@ -184,7 +192,7 @@ body {
 	background-image: url('../img/amie.png');
 }
 
-.opasity{
+.opacity{
 	height: inherit;
 	width: 100%;
 	background-color: rgba(255,255,255,0.35);
@@ -209,6 +217,8 @@ body {
 	font-family: "Nexa";
 	font-size: 25px;
 }
+
+/* Scrollify */
 
 .pagination {
 	position:fixed;
@@ -295,6 +305,8 @@ body {
 	bottom:0;
 }
 
+/* Contacts Page */
+
 .contactstext
 
 {
@@ -336,6 +348,8 @@ body {
 	text-align: right;
 }
 
+/* Fonts */
+
  @font-face {
   font-family: 'Gilroy B';
   src: url('../fonts/Gilroy-Bold.OTF');
@@ -360,6 +374,8 @@ body {
   font-family: 'Nexa';
   src: url('../fonts/Nexa Light.OTF');
 }
+
+/* Percentage bars on about page */
 
 	.skillbar {
     position: relative;
