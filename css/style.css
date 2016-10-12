@@ -70,8 +70,8 @@
 #close{
 	font-size: 3em;
 	float: right;
-	margin-top: 10px;
-	margin-right: 30px;
+	margin-top: 70px;
+	margin-right: 95px;
 }
 
 /* Mainpage */
@@ -190,6 +190,10 @@ body {
 
 #amie {
 	background-image: url('../img/amie.png');
+}
+
+#optinet {
+	background-image: url('../img/optinet.png')
 }
 
 .opacity{
