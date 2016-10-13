@@ -22,7 +22,7 @@ function skillsProgressBar() {
 $(function() {
   $.scrollify({
         section:".portfolio-box",
-        scrollbars:false,
+        // scrollbars:false,
         before:function(i,panels) {
       var ref = panels[i].attr("data-section-name");
 
