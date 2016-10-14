@@ -134,6 +134,7 @@ body {
 .portfolio-box{
 	height: 100%;
 	position: relative;
+	background-color: #E9FEF8;
 }
 
 .left{
@@ -152,37 +153,6 @@ body {
 	background-position: center;
 	background-size: auto 100%;
 }
-
-.circle {
-	border-radius: 50%;
-	width: 80px;
-	height: 80px;
-	position: absolute;
-	background-color: rgba(200,200,200,1);
-	border: 3px double #000;
-	border-spacing: -5px;
-	top: 0; bottom:0; left: 0; right:0;
-    margin: auto;
-	/* width and height can be anything, as long as they're equal */
-}
-
-.circle:hover{
-	background-color: rgba(200,200,200,0.9);
-}
-
-.circle p {
-	color: #000;
-	font-size: 1.5em;
-	text-align: center;
-	font-family: 'Nexa';
-	line-height: 80px;
-	font-weight: bold;
-}
-
-.circle a {
-	color: #000;
-}
-
 
 #uma {
 	background-image: url('../img/uma.png');
@@ -205,7 +175,8 @@ body {
 .siteinfo {
 	height: 100%;
 	padding-top: 35%;
-	background-color: #FDFDFD;
+	/* background-color: #FDFDFD; */
+	background-color: #fcfffe;
 }
 
 .siteinfo h1 {
@@ -224,14 +195,46 @@ body {
 
 .sitebtn p {
 	color: black;
-	border: solid;
+	border: 3px solid;
 	padding: 1%;
-	width: 15%;
 	font-family: "Nevis";
 	text-align: center;
 	margin: 0 auto;
-	margin-top: 5%
+	margin-top: 5%;
+	width: 15%;
 }
+
+ /* .circle {
+	border-radius: 50%;
+	width: 80px;
+	height: 80px;
+	position: absolute;
+	background-color: rgba(200,200,200,1);
+	border: 3px double #000;
+	border-spacing: -5px;
+	top: 0; bottom:0; left: 0; right:0;
+    margin: auto;
+    width and height can be anything, as long as they're equal
+}
+
+.circle:hover{
+	background-color: rgba(200,200,200,0.9);
+}
+
+.circle p {
+	color: #000;
+	font-size: 1.5em;
+	text-align: center;
+	font-family: 'Nexa';
+	line-height: 80px;
+	font-weight: bold;
+}
+
+.circle a {
+	color: #000;
+}
+*/
+
 
 /* Scrollify */
 
