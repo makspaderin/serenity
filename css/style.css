@@ -109,6 +109,15 @@ body {
 
 /* About Page */
 
+#aboutpage {
+	background-image: url('../img/bgextra.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden; 
+}
+
 #abouttext {
 	font-size: 35px;
 	font-family: 'Nexa';
@@ -134,7 +143,7 @@ body {
 .portfolio-box{
 	height: 100%;
 	position: relative;
-	background-color: #E9FEF8;
+	/* background-color: #E9FEF8; */
 }
 
 .left{
@@ -176,7 +185,7 @@ body {
 	height: 100%;
 	padding-top: 35%;
 	/* background-color: #FDFDFD; */
-	background-color: #fcfffe;
+	background-color: #FBFFFD;
 }
 
 .siteinfo h1 {
@@ -325,6 +334,15 @@ body {
 }
 
 /* Contacts Page */
+
+#contactspage {
+	background-image: url('../img/bgextra.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden; 
+}
 
 .contactstext
 
