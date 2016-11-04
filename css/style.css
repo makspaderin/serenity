@@ -186,6 +186,7 @@ body {
 	padding-top: 35%;
 	/* background-color: #FDFDFD; */
 	background-color: #FBFFFD;
+	text-align: center;
 }
 
 .siteinfo h1 {
@@ -202,16 +203,32 @@ body {
 	font-size: 25px;
 }
 
-.sitebtn p {
+.siteinfo a{
+	text-decoration: none;
+}
+
+.sitebtn{
 	color: black;
 	border: 3px solid;
-	padding: 1%;
-	font-family: "Nevis";
 	text-align: center;
-	margin: 0 auto;
-	margin-top: 5%;
-	width: 15%;
+	width: 100px;
+	height: 50px;
+	border-radius: 0;
+	padding: 0;
 }
+
+.sitebtn p{
+	padding: 0;
+	margin: 0;
+	line-height: 50px;
+	font-family: "Nevis";
+}
+
+.sitebtn:hover{
+	color: #fff;
+	background-color: #000;
+}
+
 
  /* .circle {
 	border-radius: 50%;
