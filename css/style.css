@@ -227,6 +227,7 @@ body {
 .sitebtn:hover{
 	color: #fff;
 	background-color: #000;
+	border: 3px solid #000;
 }
 
 
