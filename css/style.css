@@ -1,6 +1,6 @@
 /* Menu */
 
-#ham {
+#oldham {
 	width: 70px;
 	height: 70px;
 	margin-right: 70px;
@@ -12,6 +12,16 @@
 	position: fixed;
 	right: 0;
 	z-index: 11;
+}
+
+#ham {
+	margin-right: 90px;
+	margin-top: 80px;
+	font-size: 40px;
+	position: fixed;
+	right: 0;
+	z-index: 11;
+	cursor: pointer;
 }
 
 #menu{
@@ -67,7 +77,18 @@
 
 }
 
-#close{
+#close {
+	width: 25px;
+	height: 25px;
+	margin-right: 95px;
+	margin-top: 80px;
+	right: 0;
+	z-index: 11;
+	float: right;
+	color: #fff;
+}
+
+#oldclose{
 	font-size: 3em;
 	float: right;
 	margin-top: 70px;
