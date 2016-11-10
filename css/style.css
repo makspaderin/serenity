@@ -239,7 +239,7 @@ body {
 
 .pbtn{
 	color: #fff;
-	border: 3px solid;
+	border: 2px solid;
 	text-align: center;
 	width: 140px;
 	height: 60px;
@@ -249,7 +249,7 @@ body {
 }
 
 .pbtn p {
-	font-family: "Nevis";
+	font-family: "Kano";
 	font-size: 25px;
 }
 
@@ -429,7 +429,6 @@ body {
 	font-size: 25px;
 	color: #000;
 	padding-top: 4%;
-	padding-bottom: 4%;
 }
 
 
@@ -447,6 +446,35 @@ hr.divider {
   background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
   width: 30%;
   }
+
+ .fb, .ld, .gh {
+ 	position: relative;
+ 	display: inline-block;
+ }
+
+ .fb img, .ld img, .gh img {
+ 	transition: .25s opacity ease-in-out;
+ }
+
+ img[class*="fbb"], img[class*="ldb"], img[class*="ghb"] {
+  position: absolute;
+  left: 0;
+  top: 0;
+} 
+
+ img.fbw, .fb:hover img.fbb, img.ldw, .ld:hover img.ldb, img.ghw, .gh:hover img.ghb {
+ 	opacity: 1;
+	z-index: 1; 
+}
+
+.fb:hover img.fbw, img.fbb, .ld:hover img.ldw, img.ldb, .gh:hover img.ghw, img.ghb {
+ opacity: 0;
+ z-index: -1; 
+}
+
+img.fbw, .fb:hover img.fbb, img.ldw, .fb:hover img.ldb, img.ghw, .fb:hover img.ghb {
+  cursor: pointer;
+}
 
 /* Fonts */
 
