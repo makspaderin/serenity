@@ -447,12 +447,13 @@ hr.divider {
   width: 30%;
   }
 
- .fb, .ld, .gh {
+.socicons {
  	position: relative;
  	display: inline-block;
+ 	padding-right: 3%;
  }
 
- .fb img, .ld img, .gh img {
+.socicons img {
  	transition: .25s opacity ease-in-out;
  }
 
