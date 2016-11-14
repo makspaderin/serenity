@@ -1,14 +1,36 @@
-$('#ham').click(function(){
+$(window).load(function() {
+    // Animate loader off screen
+    $(".se-pre-con").fadeOut("slow");;
+  });
+
+if ($(window).width() > 1020) {
+  $('#ham').click(function(){
 	$('#menu').animate({
 		marginRight: "0%"
 	});
 });
+} else {
+  $('#ham').click(function(){
+    $('#menu').animate({
+      marginLeft: "0%"
+    });
+  });
+}
 
-$('#close').click(function(){
-	$('#menu').animate({
-		marginRight: "-50%"
-	});
-});
+if ($(window).width() > 1020) {
+  $('#close').click(function(){
+  	$('#menu').animate({
+  		marginRight: "-50%"
+  	});
+  });
+} else {
+  $('#close').click(function(){
+    $('#menu').animate({
+      marginLeft: "-100%"
+    });
+  });
+}
+
 
 skillsProgressBar();
 function skillsProgressBar() {

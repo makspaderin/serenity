@@ -671,3 +671,83 @@ img.fbw, .fb:hover img.fbb, img.ldw, .fb:hover img.ldb, img.ghw, .fb:hover img.g
 	margin-bottom: 12px;
 }
 }
+
+/* Mobile */
+
+@media screen and (max-width: 1020px) {
+  #container, #header, #content, #footer {
+    float: none;
+    width: auto;
+  }
+
+ /* Mobile Menu */
+
+  #ham {
+	margin-left: 50px;
+	margin-top: 50px;
+	font-size: 25px;
+	position: fixed;
+	left: 0;
+	z-index: 11;
+	cursor: pointer;
+}
+
+#menu{
+	position: fixed;
+  	top: 0;
+  	left: 0;
+	width: 100%;
+	background-color: #000;
+	height: 100%;
+	margin-left: -100%;
+	z-index: 12;
+}
+
+#close {
+	width: 25px;
+	height: 25px;
+	margin-left: 50px;
+	margin-top: 50px;
+	right: 0;
+	z-index: 11;
+	float: left;
+	color: #fff;
+}
+
+#menu ul{
+	margin-top: 40%;
+	font-size: 2em;
+	list-style-type: none;
+	text-align: center;
+}
+
+#border{
+	padding: 30px 30px 30px 30px;
+	width: auto;
+	border: 2px #fff solid;
+}
+
+/* Mobile Homepage */
+
+  #homepage {
+  	background-image: url(../img/mobile/bg.png);
+  	width: auto;
+  	height: auto;
+  }
+
+  #homepagetext {
+	padding-top: 45%;
+	padding-bottom: 45%;
+	font-family: 'Nevis';
+}
+
+
+/* Mobile Contacts */
+
+#contactspage {
+	background-image: url(../img/mobile/bgextra.png);
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+}
