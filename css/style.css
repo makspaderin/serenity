@@ -741,6 +741,42 @@ img.fbw, .fb:hover img.fbb, img.ldw, .fb:hover img.ldb, img.ghw, .fb:hover img.g
 	font-family: 'Nevis';
 }
 
+/* Mobile About */
+
+#aboutpage {
+	background-image: url(../img/mobile/bg1.png);
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+#facespic {
+	width: 40%;
+	height: 40%;
+}
+
+.skillbar {
+	padding-bottom: 8%;
+}
+
+.skillbar-title, .skill-bar-percent {
+    color: #323232;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "Nexa";
+    /*text-transform: uppercase; */
+}
+
+
+.skill-bar-percent {
+    float: right;
+	display: inline-block;
+	font-size: 14px;
+	line-height: 35px;
+	font-weight: 600;
+	font-family: "Nexa";
+}
+
+/* Mobile Portfolio */
 
 /* Mobile Contacts */
 
